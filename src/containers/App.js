@@ -42,7 +42,7 @@ render(){
     
         (
             <div className="tc">
-                <h1>RoboFriends</h1>
+                <h3>RoboFriends</h3>
                <SearchBox searchChange = {this.onSearchChange} />
                 <Scroll>
                 <CardList robots={FilterRobots} />

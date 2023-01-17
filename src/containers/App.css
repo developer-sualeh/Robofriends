@@ -5,8 +5,17 @@
     src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
     }
 
-    h1{
+    h3{
         font-family: 'SEGA LOGO FONT';
         font-weight: 200;
         color: antiquewhite;
+    }
+
+    @media screen and (max-width:768px){
+        h3{
+            font-family: 'SEGA LOGO FONT';
+            font-weight: 100;
+            color: antiquewhite;
+            font-size: 25px;
+        }
     }
